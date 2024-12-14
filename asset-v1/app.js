@@ -26,7 +26,8 @@ var app = new function() {
         {name: "02_Krins", color: "#00ffff", uniqsnd: !0},
         {name: "07_MMMMMM", color: "#00ffff", uniqsnd: !1},
         {name: "08_Vemy", color: "#00ffff", uniqsnd: !1},
-        {name: "11_BUZZER", color: "#00ffff", uniqsnd: !0}
+        {name: "11_BUZZER", color: "#00ffff", uniqsnd: !0},
+        {name: "15_Soundcloud_Rapper_Intro.sfx", color: "#00ffff", uniqsnd: !1},
     ], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
