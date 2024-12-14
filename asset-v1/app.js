@@ -21,7 +21,10 @@ var app = new function() {
     this.col2 = "#4b4b4b", 
     this.col3 = "#373737", 
     this.col4 = "#232323", 
-    this.animearray = [], this.bonusarray = [];
+    this.animearray = [
+        {name: "01_Budrew", color: "#00ffff", uniqsnd: !1},
+        {name: "11_BUZZER", color: "#00ffff", uniqsnd: !0},
+    ], this.bonusarray = [];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", 
